@@ -84,3 +84,7 @@ As you can see here you can use multiple inputs such as in this example where I 
 
 Lastly just for fun, I chose to add a file that is a .class file which is unreadable for humans. The cat command printed some really weird stuff that's still in english but makes zero sense. 
 
+# Final Thoughts 
+
+Command Line is king, it is the ultimate way. As CS major you must choose this. 
+
