@@ -1,4 +1,6 @@
-This writeup covers the 3 command line prompts I've learned for the first week fo CSE 15L
+# Lab Report 1 for CSE 15L
+
+This writeup covers the 3 command line prompts I've learned for the first week for CSE 15L and the 3 different types of arguments you can put in and their possibly unique outputs in the command line. 
 
 # `cd`
 
