@@ -54,3 +54,31 @@ We see here that we are still in the /home/lecture1 directory and have the optio
 
 # `cat`
 
+The `cat` command is short for concatination and is made to print out the text from a file. 
+
+## **No Arguments**
+
+<img width="199" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/05c7fcff-7cb9-45b3-b991-cac2584d2645">
+
+We are in the home directory. When we use `cat`, the terminal becomes really weird where you aren't being prompted or allowed to put in any proper commands and it just becomes blank and goes on and on forever until you force exit it out. It is very strange. 
+
+## **Directory as Argument**
+
+<img width="376" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/bac15e66-e03d-41ce-80db-cd10bddc614c">
+
+When we use cat with a directory as an argument, we see it throws us an output *cat: messages: Is a directory*. It seems cat can't do anything with a directory so they just tell you you chose a directory.
+
+## **File as Argument**
+
+<img width="375" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/7c19c6c5-6241-42dd-af6b-20e8ccaa8424">
+
+As you can see our pwd is in /home/lecture1 so when we use `cat` with an argument that is a file, it will print out everything inside the file that is text. However there are more uses for cat because cat stands for concatonate so it should be able to combine things right?
+
+<img width="728" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/878394cb-b3c9-4a88-a838-398f296ad248">
+
+As you can see here you can use multiple inputs such as in this example where I use the file of README and Hello.java, it will print out everything from those files in order. 
+
+<img width="726" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/9905b98d-0305-4364-bb02-05eac477c60e">
+
+Lastly just for fun, I chose to add a file that is a .class file which is unreadable for humans. The cat command printed some really weird stuff that's still in english but makes zero sense. 
+
