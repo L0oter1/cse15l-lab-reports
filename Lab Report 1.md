@@ -26,5 +26,7 @@ When using `pwd`, we see we are at the directory of /lecture1/messages. When we 
 
 # `ls`
 
+The `ls` command stands for list. It is meant to be used without an argument to give the user a list of possible files and directories from the working directory you are in right now. 
+
 
 # `cat`
