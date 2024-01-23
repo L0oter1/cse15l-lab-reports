@@ -10,24 +10,24 @@ The `cd` command stands for change directory. It is meant to be used with an arg
 
 <img width="243" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/4b826063-971b-40f6-a7f3-3acd72f70cf7">
 
-We first started off with `pwd` which shows that our working directory is /home/. With that after we used `cd` which did not give an output. Afterwards, we check our working directory and see that there is no change. This is to be expected because we did not put in an argument for cd.
+We first started off with `pwd` which shows that our working directory is /home/. With that after we used `cd` which did not give an output. Afterwards, we check our working directory and see that there is no change. This is to be expected because we did not put in an argument for cd therefore this does not give an error.
 
 <img width="378" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/fe449035-dbbe-4b7d-ac6a-de214195a129">
 
-Another use of `cd` is to go directory back to the home directory. As seen in this screenshot, when I use `pwd`, we are at /home/lecture1 but when we use `cd` again, we see that we are now in the /home/ directory. 
+Another use of `cd` is to go directory back to the home directory. As seen in this screenshot, when I use `pwd`, we are at /home/lecture1 but when we use `cd` again, we see that we are now in the /home/ directory. This is also not an error because one of the uses of `cd` is to be used to go directly to the home directory.
 
 ## **Directory as Argument**
 
 <img width="268" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/7071f8ff-7f41-4d13-983c-0294f6be96bb">
 
-Once again `pwd` shows that that we are at /home/. Afterwards, we use `cd lecture1` as lecture1 is our directory and in doing so, we change our working directory once we print out our directory once more. We now see that our working directory is at /home/lecture1.
+Once again `pwd` shows that that we are at /home/. Afterwards, we use `cd lecture1` as lecture1 is our directory and in doing so, we change our working directory once we print out our directory once more. We now see that our working directory is at /home/lecture1. This is not an error because the `cd` command is intended to be a directory which you move into and this is what `cd` did. 
 
 
 ## **File as Argument**
 
 <img width="429" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/b5ffd9d1-a32f-4df7-83a9-8e863fd7ec3f">
 
-When using `pwd`, we see we are at the directory of /lecture1/messages. When we use `cd en-us.txt`, we are putting in the file en-us.txt as the argument for `cd` and we get the output: *bash: cd: en-us.txt: Not a directory*. This happens because `cd` stands for change directory so when you choose a file as an argument, `cd` will let you know that it is wrong as you can't change your directory into a file. 
+When using `pwd`, we see we are at the directory of /lecture1/messages. When we use `cd en-us.txt`, we are putting in the file en-us.txt as the argument for `cd` and we get the output: *bash: cd: en-us.txt: Not a directory*. This happens because `cd` stands for change directory so when you choose a file as an argument, `cd` will let you know that it is wrong as you can't change your directory into a file. This gives us an error message displaying that what we used as an argument is not the correct use of cd.
 
 # `ls`
 
@@ -37,22 +37,22 @@ The `ls` command stands for list. It is meant to be used without an argument to 
 
 <img width="379" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/982304d4-34cb-4c07-91ff-4cce33548255">
 
-When we give no arguments, we see that ls lists the possible files and directories that exists in our working directory. As seen our wd (working directory) is /home/lecture1 and so `ls` without arguments listed all the possible files and directories that exists, that being Hello.class, Hello.java, messages, and README. 
+When we give no arguments, we see that ls lists the possible files and directories that exists in our working directory. As seen our wd (working directory) is /home/lecture1 and so `ls` without arguments listed all the possible files and directories that exists, that being Hello.class, Hello.java, messages, and README. This is not an error because ld is doing what it was intended to do which is print the possible paths and files in your directory.
 
-Note: Apparently it seems that directories are bolded and blue when I use ls. 
+Note: Apparently it seems that directories are bolded and blue when I use ls, to let me know which are directories. 
 
 
 ## **Directory as Argument**
 
 <img width="373" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/f1f07cb2-918f-404a-b819-d18b3c5e8411">
 
-We see here with `pwd` that we are at /home/lecture1. When we use `ls (directory)`, ls lists the possible directories and files as if you were in that working directory so when we used `ls messages`, it listed all the files inside messages. However once we use `pwd`, we see that did not change our working direcotry and only showed us what was inside the directory we chose to make our argument. 
+We see here with `pwd` that we are at /home/lecture1. When we use `ls (directory)`, ls lists the possible directories and files as if you were in that working directory so when we used `ls messages`, it listed all the files inside messages. However once we use `pwd`, we see that did not change our working directory and only showed us what was inside the directory we chose to make our argument. This is also not an error as it uses ld in the correct way.
 
 ## **File as Argument**
 
 <img width="379" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/d7e9e734-22ea-47c1-bfb3-cc76606b2fde">
 
-We see here that we are still in the /home/lecture1 directory and have the option to use ls to see what is inside this directory. Afterwards we see there are possible files and not directories. When I used the Hello.java file as the argument for ls, the output is just the file itself. It also did not change my working directory. 
+We see here that we are still in the /home/lecture1 directory and have the option to use ls to see what is inside this directory. Afterwards we see there are possible files and not directories. When I used the Hello.java file as the argument for ls, the output is just the file itself. It also did not change my working directory. This should also not be an error as no error message is displayed and instead just lists the file in the argument. 
 
 # `cat`
 
@@ -62,27 +62,27 @@ The `cat` command is short for concatination and is made to print out the text f
 
 <img width="199" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/05c7fcff-7cb9-45b3-b991-cac2584d2645">
 
-We are in the home directory. When we use `cat`, the terminal becomes really weird where you aren't being prompted or allowed to put in any proper commands and it just becomes blank and goes on and on forever until you force exit it out. It is very strange. 
+We are in the home directory. When we use `cat`, the terminal becomes really weird where you aren't being prompted or allowed to put in any proper commands and it just becomes blank and goes on and on forever until you force exit it out with (ctrl c). It seems to be very strange at first glance. However if you take a closer look, you'll see when you type commands and press enter, nothing happens and it automatically goes to the next line with no command being run and no output. This goes on forever. With a better understanding, this is the case because when you type in `cat`, it will try to print something but if there is nothing to print, it will look for it forever resulting in an error and a loop going on forever.
 
 ## **Directory as Argument**
 
 <img width="376" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/bac15e66-e03d-41ce-80db-cd10bddc614c">
 
-When we use cat with a directory as an argument, we see it throws us an output *cat: messages: Is a directory*. It seems cat can't do anything with a directory so they just tell you you chose a directory.
+When we use cat with a directory as an argument, we see it throws us an output *cat: messages: Is a directory*. It seems cat can't do anything with a directory so they just tell you you chose a directory. This is an error message telling you the argument for `cat` was wrong.
 
 ## **File as Argument**
 
 <img width="375" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/7c19c6c5-6241-42dd-af6b-20e8ccaa8424">
 
-As you can see our pwd is in /home/lecture1 so when we use `cat` with an argument that is a file, it will print out everything inside the file that is text. However there are more uses for cat because cat stands for concatonate so it should be able to combine things right?
+As you can see our pwd is in /home/lecture1 so when we use `cat` with an argument that is a file, it will print out everything inside the file that is text. This is not an error as this is what `cat` was meant to do. However there are more uses for cat because cat stands for concatonate so it should be able to combine things right?
 
 <img width="728" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/878394cb-b3c9-4a88-a838-398f296ad248">
 
-As you can see here you can use multiple inputs such as in this example where I use the file of README and Hello.java, it will print out everything from those files in order. 
+As you can see here you can use multiple inputs such as in this example where I use the file of README and Hello.java, it will print out everything from those files in order. This is also not an error as `cat` stands for concatonate so when you put multiple files into its argument, it concatonates them and prints them into the terminal.
 
 <img width="726" alt="image" src="https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/9905b98d-0305-4364-bb02-05eac477c60e">
 
-Lastly just for fun, I chose to add a file that is a .class file which is unreadable for humans. The cat command printed some really weird stuff that's still in english but makes zero sense. 
+Lastly just for fun, I chose to add a file that is a .class file which is unreadable for humans. The cat command printed some really weird stuff that's still in english but makes zero sense. This should also not be an error because concatonate still does what it's supposed to do but just in this case, the file is a .class which si unreadable for humans and thus what's printed out is also unreadable.
 
 # Final Thoughts 
 
