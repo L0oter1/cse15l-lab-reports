@@ -63,7 +63,7 @@ We also have an `answer` variable which is just a temporary string created to pr
 **Absolute Path :**  C:\Users\jeffr/.ssh/id_rsa
 
 ## Public Key
-![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/f09acf49-83ac-4bba-ad66-0b80ffc3577e)
+![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/f09acf49-83ac-4bba-ad66-0b80ffc3577e) <br>
 
 **Absolute Path :** C:\Users\jeffr/.ssh/id_rsa.pub
 
