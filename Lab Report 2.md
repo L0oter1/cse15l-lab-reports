@@ -60,10 +60,10 @@ We also have an `answer` variable which is just a temporary string created to pr
 ## Private Key
 ![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/3d7ab1ab-5b3f-4fab-90d0-a041f9056f85)
 
-**Absolute Path :**  C:\Users\jeffr/.ssh/id_rsa
+**Absolute Path :**  /home/linux/ieng6/oce/49/449/jthi/.ssh/authorized_keys
 
 ## Public Key
-![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/f09acf49-83ac-4bba-ad66-0b80ffc3577e) <br>
+![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/3bed906c-8d7b-4d15-a1c1-6847e4d173cc)<br>
 
 **Absolute Path :** C:\Users\jeffr/.ssh/id_rsa.pub
 
