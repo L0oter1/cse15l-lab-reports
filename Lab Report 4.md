@@ -33,7 +33,8 @@
 ## Keys Pressed
 
 # Step 9
-![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/0f722044-5fa1-4b58-b29c-eca0eae7d2bb)
+![image](https://github.com/L0oter1/cse15l-lab-reports/assets/147905421/1ceff8b9-aeb9-4e4e-9446-d38cdda4f83a)
+
 
 
 ## Keys Pressed
